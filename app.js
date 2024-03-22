@@ -101,6 +101,21 @@ document.write(counting%2===0)
 
 //Question no 9
 
+let LargestArray=[56 , 78 , 68 , 98 , 90 , 97];
+
+let largest=LargestArray[0];
+
+for(i=1 ; i<LargestArray.length ; i++){
+
+    if(LargestArray[i]>largest){
+
+        largest=LargestArray[i]
+    }
+}
+
+console.log(largest);
+
+
 
 
 
